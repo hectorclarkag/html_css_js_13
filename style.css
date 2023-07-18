@@ -156,3 +156,31 @@ body {
     border-radius: 25px;
     overflow: hidden;
 }
+.guest_info {
+    padding: 40px;
+    margin-top: 20px;
+}
+.about p {
+    opacity: 80%;
+}
+.cv {
+    text-align: center;
+    margin-top: 20px;
+}
+.cv button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 36px;
+    padding: 15px;
+    cursor: pointer;
+}
+.midias_sociais {
+    text-align: center;
+    margin-top: 40px;
+}
+.midias_sociais img {
+    width: 36px;
+    border-radius: 25px;
+    
+}
