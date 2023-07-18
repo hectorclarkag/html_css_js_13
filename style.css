@@ -10,26 +10,22 @@ body {
     background: linear-gradient(-120deg,#4267B2 , #30197d, #4267B2 );
     color: #fff;
 }
-.nav_container {
-    width: 99%;
-    height: 100px;
-    margin: 10px;
-    position: absolute;
-}
-.nav_bar {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.293);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+.box_style {
+    background: rgba(138, 138, 138, 0.293);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px -7px;
     backdrop-filter: blur( 7px );
     -webkit-backdrop-filter: blur( 7px );
     border-radius: 25px;
     border: 1px solid rgba(0, 0, 0, 0.293);
 }
-.menu {
+.hero {
+    padding: 20px;
+}
+.nav_container, .nav_bar, .menu {
     width: 100%;
-    height: 100%;
+    height: 100px;
+}
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,12 +35,29 @@ body {
     display: inline;
     margin-left: 30px;
 }
-.nav_container::before {
-    content: '';
-    width: 80%;
-    height: 100px;
-    background: rgba(84, 112, 140, 0.51);
-    box-shadow: 10px, 10px, 3px, 3px, rgba(0, 0, 0, 0.439);
-    border-radius: 5px;
+.main{
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box_main_user, .box_users_info {
+    display: flex;
+    flex-direction: column;
+}
+.main_user_perfil, .guets_users_cv {
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+}
+.main_user_cv, .guets_users_perfil {
+    height: 580px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.box_all_users_posts {
+    width: 100%;
+    height: 1000px;
+    margin: 20px;
 }
