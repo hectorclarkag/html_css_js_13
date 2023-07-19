@@ -188,10 +188,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
-    border-bottom: 1px solid #333;
+    margin-top: 40px;  
 }
-
+.content_hr {
+    color:  #333;
+    margin-bottom: 40px;
+}
+.content_actions {
+    display: inline;
+    margin-right: 30px;
+}
+.content_actions img {
+    width: 26px; 
+}
 .picture {
     height: 580px;
     border-radius: 25px;
